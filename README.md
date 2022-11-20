@@ -24,10 +24,14 @@ In the first window, make your way to the `~/pox` directory and run the file.
 
 `cd ~/pox`
 
-`pox.py custom_l2_learning`
+`./pox.py custom_l2_learning`
 
 In the second window, make your way to the `~/mininet` directory and run the file.
 
 `cd ~/mininet`
 
 `sudo python -u custom_tree_topology.py`
+
+If there is an issue getting the mininet file working, you might need reset interface pair files, and try again.
+
+`sudo mn -c`
