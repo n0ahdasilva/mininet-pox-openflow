@@ -4,7 +4,7 @@ Use the NOX/POX controller platform for programming an OpenFlow-based SDN-enable
 ## How to run
 Go to https://github.com/mininet/mininet/releases/ and download the lastest recommended VM image. As of 2022-11-20, release 2.3.0 is the lastest, and its recommended VM image is `mininet-2.3.0-210211-ubuntu-20.04.1-legacy-server-amd64-ovf.zip`.
 
-Once the VM is installed, the credentials to login are user: `mininet` password: `mininet`.
+Once the VM is installed, the credentials to login are user: `mininet` password: `mininet`. Ensure that you can connect to the VM from the host computer.
 
 When in the home directory, place the files into their respective folders `~/mininet` and `~/pox` by using software such as FileZilla or manually creating the files and copying its contents.
 
